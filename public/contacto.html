@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto — SynTek</title>
+  <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-logo">Syn<span class="logo-accent">Tek</span><span class="logo-dot"></span></a>
+      <div class="navbar-links">
+        <a href="index.html">Inicio</a><a href="servicios.html">Servicios</a><a href="precios.html">Precios</a><a href="portafolio.html">Portafolio</a><a href="contacto.html" class="navbar-cta active">Contacto</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menú"><span></span><span></span><span></span></button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html">Inicio</a><a href="servicios.html">Servicios</a><a href="precios.html">Precios</a><a href="portafolio.html">Portafolio</a><a href="contacto.html" class="active">Contacto</a>
+    </div>
+  </nav>
+  <div class="page-wrapper">
+    <section class="section">
+      <div class="text-center">
+        <span class="section-label">Contacto</span>
+        <h2 class="section-title">Hablemos de tu proyecto</h2>
+        <p class="section-sub mx-auto">Cuéntanos sobre tu negocio y te damos una propuesta personalizada.</p>
+      </div>
+      <div class="contact-grid">
+        <form id="contactForm">
+          <div class="form-group"><label class="form-label">Tu nombre</label><input type="text" class="form-input" placeholder="Ej: Carlos López" required></div>
+          <div class="form-group"><label class="form-label">Nombre de tu negocio</label><input type="text" class="form-input" placeholder="Ej: Barbería NovaCut" required></div>
+          <div class="form-group"><label class="form-label">¿Qué necesitas?</label><textarea class="form-textarea" placeholder="Tipo de página, presupuesto aproximado, fecha ideal..." required></textarea></div>
+          <button type="submit" class="btn btn-primary btn-full">Enviar (demo)</button>
+          <p id="formMsg" style="display:none;color:#22c55e;text-align:center;margin-top:14px;font-size:0.88rem;">¡Mensaje recibido! (demo, no se envió realmente)</p>
+        </form>
+        <div>
+          <div class="info-card">
+            <h3>Información de contacto</h3>
+            <div class="info-item"><div class="info-icon">💬</div><div><strong>WhatsApp</strong>+502 XXXX-XXXX (placeholder)</div></div>
+            <div class="info-item"><div class="info-icon">📧</div><div><strong>Email</strong>contacto@syntek.gt (placeholder)</div></div>
+            <div class="info-item"><div class="info-icon">📍</div><div><strong>Ubicación</strong>Ciudad de Guatemala</div></div>
+            <div class="info-item"><div class="info-icon">⏰</div><div><strong>Horario</strong>Lun - Vie, 9:00 - 18:00</div></div>
+          </div>
+          <a href="#whatsapp" class="btn btn-wa btn-full mt-24">💬 Escribir por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer" id="whatsapp">
+      <div class="footer-inner">
+        <div class="footer-brand"><h3>Syn<span>Tek</span></h3><p>Sincronizamos tu negocio con el mundo digital.</p><a href="#whatsapp" class="footer-wa">💬 WhatsApp (placeholder)</a></div>
+        <div class="footer-col"><h4>Navegación</h4><a href="index.html">Inicio</a><a href="servicios.html">Servicios</a><a href="precios.html">Precios</a><a href="portafolio.html">Portafolio</a><a href="contacto.html">Contacto</a></div>
+        <div class="footer-col"><h4>Demos</h4><a href="#">Barbería NovaCut — Próximamente</a><a href="#">Clínica SaludPlus — Próximamente</a><a href="#">Taller MotorFix — Próximamente</a></div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 SynTek — Estudio Digital. Guatemala.</span><span>Proyecto académico — UMG</span></div>
+    </footer>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
