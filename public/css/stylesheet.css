@@ -164,9 +164,24 @@ img { max-width: 100%; display: block; }
 .portfolio-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; transition: var(--transition); display: block; }
 .portfolio-card:hover { transform: translateY(-5px); border-color: var(--border-hover); box-shadow: 0 16px 44px rgba(95, 52, 117, 0.1); }
 .portfolio-preview { height: 190px; display: flex; align-items: center; justify-content: center; font-size: 2.8rem; }
-.portfolio-preview.barberia { background: linear-gradient(135deg, #ede0f0, #ddd0e8); }
-.portfolio-preview.clinica { background: linear-gradient(135deg, #dde0f4, #ccd0ee); }
-.portfolio-preview.taller { background: linear-gradient(135deg, #f0dce6, #e8c8d8); }
+.portfolio-preview.panaderia { 
+  background: linear-gradient(135deg, #f5e6d3, #e8cfa8); 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
+.portfolio-preview.panaderia { 
+  background: linear-gradient(135deg, #f5e6d3, #e8cfa8); 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
+.portfolio-preview.panaderia { 
+  background: linear-gradient(135deg, #f5e6d3, #e8cfa8); 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
 .portfolio-body { padding: 24px; }
 .portfolio-body h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: 8px; color: var(--text-primary); }
 .portfolio-body p { color: var(--text-secondary); font-size: 0.88rem; line-height: 1.6; margin-bottom: 16px; }
