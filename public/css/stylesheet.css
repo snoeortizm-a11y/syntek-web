@@ -223,3 +223,8 @@ img { max-width: 100%; display: block; }
 body::before {
   z-index: 0;
 }
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
